@@ -1,0 +1,40 @@
+
+
+.new-container {    
+    position: relative;
+    display: grid;
+    width: 75%;
+    grid-template-columns: 37% 50%;
+    gap: 13%;
+    top: -5rem;
+}
+
+.red-container {
+    display: flex;
+    background-color: var(--color-primary);
+    padding: 5rem 1.5rem;
+}
+
+.neo-tariff {
+    margin-top: 10rem;
+}
+
+.neo-tariff > h1{
+    color: var(--color-black);
+    font-size: 5rem;
+    font-weight: bolder;
+}
+
+
+nav {
+    display: flex;
+    gap: 2rem;
+    margin-top: 3rem;
+}
+
+nav > a {
+    color: var(--color-bg-variant);
+}
+nav > a:hover {
+    color: var(--color-black);
+}

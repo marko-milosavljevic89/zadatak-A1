@@ -1,0 +1,136 @@
+.footer-over-container{
+    background-color: var(--color-black);
+    text-align: center;
+    border-top: 1.5px solid var(--color-bg-variant);
+}
+
+.footer_container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;    
+}
+
+.footer-under_container {
+    align-items: center;
+    padding:  10px;
+}
+
+.footer-under_container small{
+    padding:  10px;
+    font-size: 0.75rem; 
+}
+
+.active-footer {
+    color: var(--color-bg);
+}
+
+.information-container {
+    background-color: var(--color-black);
+    position: relative;
+    display: grid;
+    grid-template-columns: 26% 65%;
+    gap: 4%;
+}
+
+.information-image-container {
+    display: flex;
+    position: relative;
+    border-top: solid 3px #2B5C66;
+    border-left: solid 1.5px #ffffff;
+}
+
+.information-image-text {
+    position: absolute;
+    width: 60%;
+    bottom: 1rem;
+    left: 2rem;
+    color: var(--color-bg);
+    padding-bottom: 2rem;
+    margin-left: 3.5rem;
+}
+
+.information-image-text h1 {
+    font-size: 2.1rem;
+}
+
+.information-image-store {
+    display: grid;
+    grid-template-columns: 45% 45%;
+    gap: 10%;
+    padding-top: 2rem;
+}
+
+.information-content-nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+}
+
+.information-footer-under_container {
+    align-items: center;
+    padding:  10px;
+    padding-top:5rem;
+    padding-bottom: 3rem;
+}
+
+.information-footer-under_container a{
+    padding:  10px;
+    font-size: 1rem; 
+    color: var(--color-bg-variant);    
+}
+
+.information-footer-under_container a:hover{
+    color: var(--color-bg);    
+}
+
+.information-content-grid {
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    gap: 3.33%;
+    margin-left: 1rem;
+}
+
+.information-div h2 {
+    color: var(--color-bg);
+}
+
+.information-div a {
+    color: var(--color-bg-variant);
+}
+
+.information-div a:hover {
+    color: var(--color-bg);
+}
+
+.information-private {
+    margin-bottom: 2rem;
+}
+
+.information-contacs-symbol {
+    width: 0.8rem;
+    display: inline;
+    margin-right: 1rem;
+}
+
+.information-contacs-phone {
+    width: 0.7rem;
+    display: inline;
+    margin-right: 1rem;
+    margin-bottom: -0.1rem;
+}
+
+
+.scroll-up {
+    position:absolute;    
+    font-weight: 3;
+    z-index: 10;
+    width: 4rem;
+    right: 1rem;
+    top: 279.5rem; 
+    /* width: 4rem;
+    position: relative;
+    right: -100rem;
+    top: 2rem;
+    z-index: 10; */
+}

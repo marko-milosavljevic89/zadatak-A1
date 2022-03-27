@@ -1,0 +1,138 @@
+.package-title {
+    display: grid;
+    justify-content: center;
+    margin-bottom: 1rem;
+    color: var(--color-black);
+}
+
+.package-title h1 {
+    font-size: 4rem;
+    font-weight: bolder;
+}
+
+.gb-h2 {
+    font-size: 3rem;
+}
+
+.package-container {
+    display: grid;
+    grid-template-columns: 25% 25% 25%;
+    gap: 2rem;
+    justify-content: center;
+    font-size: medium;
+}
+
+
+.forward-package {
+    margin-top: 0.3rem;
+    margin-left: 1rem;
+}
+
+.package-check-div {
+    display: flex;
+    gap: 0.5rem;
+}
+
+.package-check {
+    display: inline;
+    margin-top: 0.4rem;
+}
+
+
+.red-package-container {
+    background-color: var(--color-primary);
+    text-align:justify;
+    padding: 4rem;
+    color: var(--color-bg);
+    display: grid;
+}
+
+.red-package-container .button-package{
+    background-color: var(--color-bg);
+    color: var(--color-primary);
+    
+    padding: 4px;
+}
+.button-package {
+    width: 85%;
+    display:grid;
+    grid-template-columns: 70% 30%;
+    
+}
+
+.red-package-container a{   
+    color: var(--color-primary);
+    margin-left: 10px;
+}
+
+.red-package-container .choose-style {
+    text-decoration: underline;
+    
+}
+
+
+.gray-package-container {
+    background-color: var(--color-white);
+    text-align:justify;
+    padding: 4rem;
+    color: var(--color-black);
+    display: grid;
+    grid-template-rows: 59%;
+    gap: 4rem;
+    
+}
+
+.gray-package-container .underline {
+    color: var(--color-primary);
+}
+
+
+.gray-package-container .button-package{
+    background-color: var(--color-primary);
+    color: var(--color-white);
+    padding: 4px;
+}
+
+.gray-package-container a{   
+    color: var(--color-white);
+    margin-left: 10px;
+}
+
+.gray-package-container .choose-style {
+    text-decoration: underline;
+    color: var(--color-primary);
+}
+
+.social-package {
+    width: 2rem;
+    display: inline;
+    margin-right: 0.5rem;
+}
+
+.line-through {
+    text-decoration: line-through;
+}
+
+.sup-class {
+    font-size: 1rem;
+}
+
+.underline {
+    text-decoration: underline;
+}
+
+.tabs {
+    display: grid;
+    justify-content: center;
+    margin-bottom: 1rem;
+    color: var(--color-black);
+    font-weight: bolder;
+}
+
+/* .position-price {
+    margin-top: 2rem;
+} */
+
+
+
+

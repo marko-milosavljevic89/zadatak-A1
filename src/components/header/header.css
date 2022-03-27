@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster+Two&family=Montserrat:wght@400;500&family=Roboto+Slab:wght@400;500;700&display=swap');
+
+
+.over-container{
+    background-color: var(--color-black);
+    text-align: center;
+}
+
+.over-container-main {
+    background-color: transparent;
+    text-align: center;
+}
+.header_container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;    
+}
+
+.main_container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center; 
+}
+
+.under_container {
+    align-items: center;
+    padding:  10px;
+}
+
+.under_container a{
+    padding:  10px;
+    font-size: 0.75rem;    
+}
+
+.under_container-main {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.under_container-main a{
+    color: var(--color-black);
+    padding:  10px;
+    margin: auto;
+}
+
+.under_container-main a:hover {
+    color: var(--color-primary);
+}
+
+.logo {
+    width: 2.5rem;    
+}
+
+.content-a {
+    position:relative;
+    background-image:url('../../assets/uA1.svg');
+    background-size: 1.8rem;
+    background-position: 3.27rem -0.01rem;
+    background-repeat: no-repeat;
+}
+
+.uA1 {
+    position:absolute;
+    top:0;
+    right:5rem;
+    width: 2rem;
+    margin: 0;
+    position: sticky;
+    top: 50px;
+}
+
+.nohover:hover {
+    color: var(--color-white);
+    pointer-events: none;
+}
+
+.search-logo {
+    margin-top: 16px;
+    color: var(--color-black)
+}
+
+
+.user {
+    position: fixed;
+    width: 4rem;
+    right: 0rem;
+    bottom: 20rem;
+}
+
+.basket {
+    position: fixed;
+    width: 4rem;
+    right: 0rem;
+    bottom: 7rem;
+}
+
+/* ======== MEDIA QUERIES (MEDIUM DEVICES) ================= */
+@media screen and (max-width: 1024px) {
+
+    .over-container {
+        display: none;
+    }
+  
+    .header_container {
+        display: none;
+        transition: var(--transition);
+    }
+    
+    .main_container {
+        flex-flow: column;
+        flex-wrap: nowrap;
+    }
+    
+    .under_container-main {
+        
+        padding: 10px;
+    }
+
+    .under_container-main a{
+        padding:  5px;
+        
+    }
+  }
+  
+  /* ======== MEDIA QUERIES (SMALL DEVICES) ================= */
+  @media screen and (max-width: 600px) {
+    .over-container {
+        display: none;
+    }
+  
+    .header_container {
+        display: none;
+        transition: var(--transition);
+    }
+
+    .main_container {
+        flex-flow: column;
+    }
+
+    .under_container-main {
+        
+        padding: 7px;
+    }
+
+    .under_container-main a{
+        padding:  3px;
+        
+    }
+  }

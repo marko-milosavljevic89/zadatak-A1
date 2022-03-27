@@ -1,0 +1,66 @@
+.online-container {
+    position: relative;
+    display: grid;
+    grid-template-columns: 48% 48%;
+    gap: 4%;
+    
+}
+
+.left-online-container {
+    position: relative;
+    
+}
+
+.online-image-container {
+   position: relative;
+   margin-bottom: 2rem;
+   
+}
+
+.online-image-text-container {
+    position: absolute;
+    width: 70%;
+    bottom: 1rem;
+    left: 2rem;
+    color: var(--color-bg);
+    padding-bottom: 2rem;
+}
+
+
+.online-months-container {
+    background-color: var(--color-white);
+    display: flex;
+    display: grid;
+    grid-template-columns: 66% 33%;
+    padding: 2rem;
+   
+    padding-bottom: 5rem;
+    color: var(--color-black);
+}
+
+.months-image {
+    left: 3rem;
+    top: 2rem;
+    width: 75%;
+    position: relative;
+    display: flex;
+}
+
+.right-online-container {
+    background-color: var( --color-white);
+    padding: 2rem;
+    padding-top: 22rem;
+    background-image: url(../../assets/mreža.svg);
+    background-size: 100rem; 
+    background-position: absolute;
+    background-position-x: 5rem;
+    background-position-y: -45rem;
+    background-repeat: no-repeat;
+    color: var(--color-black);
+    display: flex;
+    position:relative;
+}
+
+.right-online-container-text {
+    width: 55%;
+}
