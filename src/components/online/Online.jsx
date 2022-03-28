@@ -10,7 +10,7 @@ function Online() {
       <div className="container online-container">
         <div className='left-online-container'>
           <div className='online-image-container'>
-            <img src={phone} alt="" />
+            
             <div className='online-image-text-container'>
               <h1>Zašto da kupiš online?</h1>
               <p>Pored toga što kupovinu možeš obaviti gde god da se nalaziš, svakom online kupovinom u Vipu dobijaš još više.</p>

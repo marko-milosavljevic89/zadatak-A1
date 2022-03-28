@@ -13,17 +13,22 @@
 
 .online-image-container {
    position: relative;
-   margin-bottom: 2rem;
+    display: flex;
+    padding: 5rem;
+    padding-bottom: 2rem;
+    background-image: url(../../assets/phone.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-bottom: 2rem;
    
 }
 
 .online-image-text-container {
-    position: absolute;
-    width: 70%;
-    bottom: 1rem;
-    left: 2rem;
+    
     color: var(--color-bg);
-    padding-bottom: 2rem;
+    margin-bottom: 5rem;
+    
+    
 }
 
 
@@ -63,4 +68,66 @@
 
 .right-online-container-text {
     width: 55%;
+}
+
+/* ======== MEDIA QUERIES (SMALL DEVICES) ================= */
+@media screen and (max-width:  1005px) {
+    .online-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 90%;
+        
+    }
+    .left-online-container {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        gap: 2rem;
+        
+    }
+
+    .online-image-container {
+        width: 90%;
+        margin-bottom: 0rem;
+    }
+
+    .online-image-text-container {
+        font-size: medium;
+        color: var(--color-bg);
+        margin-bottom: 5rem;
+        
+        
+    }
+
+    .online-months-container {
+        margin-bottom: 2rem;
+    }
+
+    .right-online-container {
+        background-color: var( --color-white);
+        padding: 2rem;
+        padding-top: 22rem;
+        background-image: url(../../assets/mreža.svg);
+        background-size: 100rem; 
+        background-position: absolute;
+        background-position-x: 5rem;
+        background-position-y: -45rem;
+        background-repeat: no-repeat;
+        color: var(--color-black);
+        display: flex;
+        position:relative;
+    }
+    
+}
+
+@media screen and (max-width:  500px) {
+    .online-image-text-container {
+        font-size: smaller;
+        height: auto;
+    }
+
+    .right-online-container-text {
+        width: 100%;
+    }
 }

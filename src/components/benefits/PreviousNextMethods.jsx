@@ -38,9 +38,9 @@ export default class PreviousNextMethods extends Component {
         <Slider className="slides-container" ref={c => (this.slider = c)} {...settings}>
           <div className="slides-content-container slides-content-container-red" key={1}>
             <h3>1/3</h3>
-
+            <div >
                 <h2>Uz svaku NEO tarifu možeš da ćaskaš i kuckaš NEOgraničeno</h2>
-       
+            </div>
           </div>
           <div className="slides-content-container slides-content-container-blue" key={2}>
             <h3>2/3</h3>
