@@ -16,7 +16,7 @@
 
 .package-container {
     display: grid;
-    grid-template-columns: 25% 25% 25%;
+    grid-template-columns: repeat(3, 2fr);
     gap: 2rem;
     justify-content: center;
     font-size: medium;
@@ -25,7 +25,7 @@
 
 .forward-package {
     margin-top: 0.3rem;
-    margin-left: 1rem;
+    margin-left: 2rem;
 }
 
 .package-check-div {
@@ -128,10 +128,32 @@
     color: var(--color-black);
     font-weight: bolder;
 }
+/* ======== MEDIA QUERIES (MEDIUM DEVICES) ================= */
+@media screen and (max-width: 1195px) {
 
-/* .position-price {
-    margin-top: 2rem;
-} */
+    .package-container {
+        display: grid;
+        grid-template-columns: repeat(2, 2fr);
+        gap: 2rem;
+        justify-content: center;
+        font-size: medium;
+    }
+
+
+  }
+  
+  /* ======== MEDIA QUERIES (SMALL DEVICES) ================= */
+  @media screen and (max-width:  786px) {
+    
+
+    .package-container {
+        display: grid;
+        grid-template-columns: repeat(1, 4fr);
+        gap: 2rem;
+        justify-content: center;
+        font-size: medium;
+    }
+}
 
 
 

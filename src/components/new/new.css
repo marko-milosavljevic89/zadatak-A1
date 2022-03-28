@@ -62,13 +62,7 @@ nav > a:hover {
     }
 
     .red-container {
-        /* display: flex;
-        background-color: var(--color-primary);
-        padding: 1rem 1rem;
-        background-image: url(../../assets/nemasta.svg);
-        background-repeat: no-repeat;
-        background-size: 20rem;
-        background-position: center; */
+
         display: none;
         
     }
@@ -85,13 +79,40 @@ nav > a:hover {
         font-weight: lighter;
     }
 
-    /* .no__image {
-        display: none;
-    } */
 
   }
   
   /* ======== MEDIA QUERIES (SMALL DEVICES) ================= */
   @media screen and (max-width: 600px) {
+    
+    .new-container {    
+        display: flex;
+    background-color: var(--color-primary);
+    align-items: center;
+    background-image: url(../../assets/nemasta.svg);
+    background-repeat: no-repeat;
+    background-size: 13rem;
+    background-position: 7rem 1rem ;
+    }
+
+    .red-container {
+
+        display: none;
+        
+    }
+
+    .neo-tariff {
+        position: relative;
+        padding: 1rem;
+        margin-top: 15rem;
+    }
+
+    .neo-tariff > h1{
+        color: var(--color-bg);
+        font-size: 3rem;
+        font-weight: lighter;
+    }
+
+
   
   }
