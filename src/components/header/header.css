@@ -50,13 +50,14 @@
 }
 
 .logo {
+    margin-top: 0;
     width: 2.5rem;    
 }
 
 .content-a {
     position:relative;
     background-image:url('../../assets/uA1.svg');
-    background-size: 1.8rem;
+    background-size: 1.75rem;
     background-position: 3.27rem -0.01rem;
     background-repeat: no-repeat;
 }
@@ -87,6 +88,7 @@
     width: 4rem;
     right: 0rem;
     bottom: 20rem;
+    z-index: 15;
 }
 
 .basket {
@@ -94,7 +96,9 @@
     width: 4rem;
     right: 0rem;
     bottom: 7rem;
+    z-index: 15;
 }
+
 
 /* ======== MEDIA QUERIES (MEDIUM DEVICES) ================= */
 @media screen and (max-width: 1024px) {
@@ -107,21 +111,7 @@
         display: none;
         transition: var(--transition);
     }
-    
-    .main_container {
-        flex-flow: column;
-        flex-wrap: nowrap;
-    }
-    
-    .under_container-main {
-        
-        padding: 10px;
-    }
 
-    .under_container-main a{
-        padding:  5px;
-        
-    }
   }
   
   /* ======== MEDIA QUERIES (SMALL DEVICES) ================= */
@@ -134,18 +124,6 @@
         display: none;
         transition: var(--transition);
     }
-
-    .main_container {
-        flex-flow: column;
-    }
-
-    .under_container-main {
-        
-        padding: 7px;
-    }
-
-    .under_container-main a{
-        padding:  3px;
-        
-    }
   }
+
+  

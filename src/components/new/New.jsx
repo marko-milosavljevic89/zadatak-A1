@@ -9,7 +9,7 @@ function New() {
     <section id='new'>
       <div className='container new-container'>
         <div className='red-container'>
-          <img src={nemasta} alt="" />
+         
         </div>
         <div className='neo-tariff'>
           <p style={{color: "var(--color-light)"}}>NEO tarifa</p>

@@ -3,25 +3,34 @@
 .new-container {    
     position: relative;
     display: grid;
-    width: 75%;
-    grid-template-columns: 37% 50%;
-    gap: 13%;
+    width: 85%;
+    grid-template-columns: 41% 40%;
+    justify-content: center;
+    gap: 7%;
     top: -5rem;
 }
+
+
 
 .red-container {
     display: flex;
     background-color: var(--color-primary);
-    padding: 5rem 1.5rem;
+    align-items: center;
+    background-image: url(../../assets/nemasta.svg);
+    background-repeat: no-repeat;
+    background-size: 20rem;
+    background-position: center;
+    
 }
 
 .neo-tariff {
-    margin-top: 10rem;
+    margin-top: 1rem;
+    padding-bottom: 12rem;
 }
 
 .neo-tariff > h1{
     color: var(--color-black);
-    font-size: 5rem;
+    font-size: 4.5rem;
     font-weight: bolder;
 }
 
@@ -38,3 +47,51 @@ nav > a {
 nav > a:hover {
     color: var(--color-black);
 }
+
+/* ======== MEDIA QUERIES (MEDIUM DEVICES) ================= */
+@media screen and (max-width: 1024px) {
+
+    .new-container {    
+        display: flex;
+    background-color: var(--color-primary);
+    align-items: center;
+    background-image: url(../../assets/nemasta.svg);
+    background-repeat: no-repeat;
+    background-size: 15rem;
+    background-position: 9rem 1rem ;
+    }
+
+    .red-container {
+        /* display: flex;
+        background-color: var(--color-primary);
+        padding: 1rem 1rem;
+        background-image: url(../../assets/nemasta.svg);
+        background-repeat: no-repeat;
+        background-size: 20rem;
+        background-position: center; */
+        display: none;
+        
+    }
+
+    .neo-tariff {
+        position: relative;
+        padding: 1rem;
+        margin-top: 15rem;
+    }
+
+    .neo-tariff > h1{
+        color: var(--color-bg);
+        font-size: 3rem;
+        font-weight: lighter;
+    }
+
+    /* .no__image {
+        display: none;
+    } */
+
+  }
+  
+  /* ======== MEDIA QUERIES (SMALL DEVICES) ================= */
+  @media screen and (max-width: 600px) {
+  
+  }
