@@ -13,7 +13,7 @@ import scrollup from '../../assets/Scroll-up.svg'
 function Information() {
   return (
     <div>
-        <a href="#new" className='scroll__up'>
+        <a href="#navigation" className='scroll__up'>
         <img className='scroll-up' src={scrollup} alt="" />
     </a>
 

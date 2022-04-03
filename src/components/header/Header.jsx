@@ -6,7 +6,7 @@ import basket from '../../assets/basket.svg'
 import user from '../../assets/user.svg'
 
 function Header() {
-  return (<div>
+  return (<div id='navigation'>
         <TopMenu/>
         <MainMenu/>
           <div>
