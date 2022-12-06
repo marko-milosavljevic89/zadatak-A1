@@ -1,5 +1,3 @@
-This is a simple project that i did in 48 hours via using a Figma file provided by A1 for a job position.
-
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
