@@ -1,4 +1,4 @@
-This is a simple project that i did in 48 hours via using a Figma file provided by A1.
+This is a simple project that i did in 48 hours via using a Figma file provided by A1 for a job position.
 
 # Getting Started with Create React App
 
